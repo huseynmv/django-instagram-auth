@@ -80,7 +80,7 @@ ALLOWED_HOSTS = ['*']
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
-
+CSRF_TRUSTED_ORIGINS = ['*']
 
 AUTH_USER_MODEL = 'account.User'
 
