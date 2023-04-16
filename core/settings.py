@@ -77,6 +77,7 @@ SECRET_KEY = 'django-insecure-+96c3_yh-tm8s%f(#vrz(zg-0sw4xihbd2nr5%_as6u6cu!heo
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
