@@ -80,7 +80,8 @@ ALLOWED_HOSTS = ['*']
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
-CSRF_TRUSTED_ORIGINS = ['*']
+# CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ["http://django-instagram-auth.azurewebsites.net/", "https://django-instagram-auth.azurewebsites.net/"]
 
 AUTH_USER_MODEL = 'account.User'
 
