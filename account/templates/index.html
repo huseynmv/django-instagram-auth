@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Hello {{request.user.username}} currently you have {{follower}} follower and you follow {{ following }} accounts
+    </h1>
+    <div>
+        <h4>
+            <div
+                style="height: 40px; background-color: #0088cc; width: 105px; justify-content: center; align-items: center;text-align: center;">
+                <a style="color: aliceblue; ;" href="{% url 'account:add-instagram' %}">Connect instagram</a>
+            </div>
+        </h4>
+    </div>
+</body>
+
+</html>
